@@ -15,6 +15,7 @@ public class GUISubasta extends javax.swing.JFrame {
     /** Creates new form GUISubasta */
     public GUISubasta() {
       //me cago en la puta :D
+      //chupaelperro
         initComponents();
     }
 
