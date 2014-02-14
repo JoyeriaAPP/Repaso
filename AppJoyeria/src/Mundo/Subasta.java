@@ -4,17 +4,11 @@ package Mundo;
 public class Subasta {
 
     private int conteoAbiertaJoya1;
-
     private int conteoAbiertaJoya2;
-
     private int conteoAbiertaJoya3;
-
     private Joya joya2;
-
     private Joya joya1;
-
     private Joya joya3;
-
 
 
     public Subasta () {

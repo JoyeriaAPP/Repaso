@@ -4,13 +4,9 @@ package Mundo;
 public class Joya {
 
     private String nombre;
-
     private int costoBase;
-
     private String disenador;
-
     private int numeroDeOfertas;
-
     private int valorTotalOfertas;
 
   

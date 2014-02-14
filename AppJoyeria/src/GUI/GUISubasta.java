@@ -14,9 +14,7 @@ public class GUISubasta extends javax.swing.JFrame {
 
     /** Creates new form GUISubasta */
     public GUISubasta() {
-        // copie estos 
-        // jno coipa
-        // se puede modificar
+      //me cago en la puta :D
         initComponents();
     }
 
