@@ -16,6 +16,7 @@ public class GUISubasta extends javax.swing.JFrame {
     public GUISubasta() {
         // copie estos 
         // jno coipa
+        // se puede modificar
         initComponents();
     }
 
