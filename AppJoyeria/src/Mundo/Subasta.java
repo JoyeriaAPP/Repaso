@@ -12,7 +12,9 @@ public class Subasta {
 
 
     public Subasta () {
-
+        joya1=new Joya("Primero", 1000000, "Adarme");
+        joya2=new Joya("Segundo", 5000000, "Pilar");
+        joya3=new Joya("Tercero",10000000,"Boris");
     }
 
 
@@ -61,7 +63,9 @@ public class Subasta {
 
 
     public void reiniciarSubasta () {
-  
+        this.conteoAbiertaJoya1=0;
+        this.conteoAbiertaJoya2=0;
+        this.conteoAbiertaJoya3=0;
   }
 
 

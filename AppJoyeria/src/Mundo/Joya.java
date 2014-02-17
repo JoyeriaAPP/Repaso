@@ -12,6 +12,11 @@ public class Joya {
   
   public Joya (String nombreN, int costoBaseN, String disenadorN) {
 
+      this.nombre=nombreN;
+      this.costoBase=costoBaseN;
+      this.disenador=disenadorN;
+      
+      
     }
 
  

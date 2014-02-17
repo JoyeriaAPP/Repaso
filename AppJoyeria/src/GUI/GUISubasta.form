@@ -95,27 +95,27 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel2" min="-2" pref="68" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="lblNombreJ1" pref="126" max="32767" attributes="0"/>
+                          <Component id="txtNombre1" pref="126" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel3" min="-2" pref="68" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="lblCostoJ1" pref="126" max="32767" attributes="0"/>
+                          <Component id="txtCostoBase1" pref="126" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel4" min="-2" pref="68" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="lblDisenadorJ1" pref="126" max="32767" attributes="0"/>
+                          <Component id="txtDiseñador1" pref="126" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel5" min="-2" pref="91" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                          <Component id="lblNumOfertasJ1" pref="126" max="32767" attributes="0"/>
+                          <Component id="txtNumeroOfertas1" pref="126" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                          <Component id="lblValorOfertasJ1" pref="126" max="32767" attributes="0"/>
+                          <Component id="txtValor1" pref="126" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
@@ -132,26 +132,26 @@
               <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel2" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblNombreJ1" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtNombre1" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel3" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblCostoJ1" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtCostoBase1" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel4" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblDisenadorJ1" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtDiseñador1" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel5" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblNumOfertasJ1" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtNumeroOfertas1" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lblValorOfertasJ1" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtValor1" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                       <Component id="jLabel6" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
@@ -192,15 +192,18 @@
             <Property name="text" type="java.lang.String" value="Valor Total Ofertas:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblNombreJ1">
+        <Component class="javax.swing.JLabel" name="txtNombre1">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblCostoJ1">
+        <Component class="javax.swing.JLabel" name="txtCostoBase1">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblDisenadorJ1">
+        <Component class="javax.swing.JLabel" name="txtDise&#xf1;ador1">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblNumOfertasJ1">
+        <Component class="javax.swing.JLabel" name="txtNumeroOfertas1">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblValorOfertasJ1">
+        <Component class="javax.swing.JLabel" name="txtValor1">
           <Properties>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="cc" type="rgb"/>
@@ -211,6 +214,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Ofertar"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel7">
           <Properties>
@@ -241,27 +247,27 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel8" min="-2" pref="68" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="lblNombreJ2" pref="128" max="32767" attributes="0"/>
+                          <Component id="txtNombre2" pref="128" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel9" min="-2" pref="68" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="lblCostoJ2" pref="128" max="32767" attributes="0"/>
+                          <Component id="txtCostoBase2" pref="128" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel10" min="-2" pref="68" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="lblDisenadorJ2" pref="128" max="32767" attributes="0"/>
+                          <Component id="txtDiseñador2" pref="128" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel11" min="-2" pref="91" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                          <Component id="lblNumOfertasJ2" pref="128" max="32767" attributes="0"/>
+                          <Component id="txtNumeroOfertas2" pref="128" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                          <Component id="lblValorOfertasJ2" pref="128" max="32767" attributes="0"/>
+                          <Component id="txtValor2" pref="128" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
@@ -278,26 +284,26 @@
               <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel8" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblNombreJ2" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtNombre2" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel9" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblCostoJ2" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtCostoBase2" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel10" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblDisenadorJ2" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtDiseñador2" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel11" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblNumOfertasJ2" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtNumeroOfertas2" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lblValorOfertasJ2" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtValor2" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                       <Component id="jLabel12" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
@@ -338,15 +344,15 @@
             <Property name="text" type="java.lang.String" value="Valor Total Ofertas:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblNombreJ2">
+        <Component class="javax.swing.JLabel" name="txtNombre2">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblCostoJ2">
+        <Component class="javax.swing.JLabel" name="txtCostoBase2">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblDisenadorJ2">
+        <Component class="javax.swing.JLabel" name="txtDise&#xf1;ador2">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblNumOfertasJ2">
+        <Component class="javax.swing.JLabel" name="txtNumeroOfertas2">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblValorOfertasJ2">
+        <Component class="javax.swing.JLabel" name="txtValor2">
           <Properties>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="cc" type="rgb"/>
@@ -357,6 +363,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Ofertar"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel13">
           <Properties>
@@ -387,27 +396,27 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel14" min="-2" pref="68" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="lblNombreJ3" pref="126" max="32767" attributes="0"/>
+                          <Component id="txtNombre3" pref="126" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel15" min="-2" pref="68" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="lblCostoJ3" pref="126" max="32767" attributes="0"/>
+                          <Component id="txtCostoBase3" pref="126" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel16" min="-2" pref="68" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="lblDisenadorJ3" pref="126" max="32767" attributes="0"/>
+                          <Component id="txtDiseñador3" pref="126" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel17" min="-2" pref="91" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                          <Component id="lblNumOfertasJ3" pref="126" max="32767" attributes="0"/>
+                          <Component id="txtNumeroOfertas3" pref="126" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                          <Component id="lblValorOfertasJ3" pref="126" max="32767" attributes="0"/>
+                          <Component id="txtValor3" pref="126" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
@@ -427,26 +436,26 @@
               <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel14" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblNombreJ3" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtNombre3" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel15" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblCostoJ3" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtCostoBase3" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel16" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblDisenadorJ3" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtDiseñador3" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel17" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="lblNumOfertasJ3" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtNumeroOfertas3" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lblValorOfertasJ3" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="txtValor3" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                       <Component id="jLabel18" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -486,15 +495,15 @@
             <Property name="text" type="java.lang.String" value="Valor Total Ofertas:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblNombreJ3">
+        <Component class="javax.swing.JLabel" name="txtNombre3">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblCostoJ3">
+        <Component class="javax.swing.JLabel" name="txtCostoBase3">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblDisenadorJ3">
+        <Component class="javax.swing.JLabel" name="txtDise&#xf1;ador3">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblNumOfertasJ3">
+        <Component class="javax.swing.JLabel" name="txtNumeroOfertas3">
         </Component>
-        <Component class="javax.swing.JLabel" name="lblValorOfertasJ3">
+        <Component class="javax.swing.JLabel" name="txtValor3">
           <Properties>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="cc" type="rgb"/>
@@ -505,6 +514,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Ofertar"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel19">
           <Properties>
@@ -533,18 +545,18 @@
                           <Group type="102" alignment="0" attributes="1">
                               <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="lblTotalRecaudos" min="-2" pref="172" max="-2" attributes="0"/>
+                              <Component id="txtTotalRecaudadosOfertas" min="-2" pref="172" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel20" min="-2" pref="229" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                              <Component id="lblTotalNumOf" min="-2" pref="172" max="-2" attributes="0"/>
+                              <Component id="txtNumeroTotalOfertas" min="-2" pref="172" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel22" min="-2" pref="264" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblPromedio" min="-2" pref="172" max="-2" attributes="0"/>
+                          <Component id="txtPromedioOfertasRealizadas" min="-2" pref="172" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace pref="143" max="32767" attributes="0"/>
@@ -558,7 +570,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel20" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
-                      <Component id="lblTotalNumOf" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="txtNumeroTotalOfertas" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -566,11 +578,11 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel21" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
-                              <Component id="lblTotalRecaudos" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="txtTotalRecaudadosOfertas" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="lblPromedio" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="txtPromedioOfertasRealizadas" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
                               <Component id="jLabel22" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -614,7 +626,7 @@
             <Property name="text" type="java.lang.String" value="PROMEDIO OFERTAS REALIZADAS:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblTotalNumOf">
+        <Component class="javax.swing.JLabel" name="txtNumeroTotalOfertas">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="1"/>
@@ -624,7 +636,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblTotalRecaudos">
+        <Component class="javax.swing.JLabel" name="txtTotalRecaudadosOfertas">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="1"/>
@@ -634,7 +646,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblPromedio">
+        <Component class="javax.swing.JLabel" name="txtPromedioOfertasRealizadas">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="1"/>
@@ -660,6 +672,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Totales Tienda Joyeria"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton5">
       <Properties>
